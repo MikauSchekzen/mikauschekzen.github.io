@@ -1,0 +1,281 @@
+{
+	"props": {
+		"doors": {
+			"classic": {
+				"atlas": "props_classic",
+				"animName": "door",
+				"frames": 10,
+				"sound": {
+					"open": "sndDoor"
+				}
+			},
+			"cave": {
+				"atlas": "props_cave",
+				"animName": "door",
+				"frames": 9,
+				"sound": {
+					"open": "sndDoor_Cave"
+				}
+			},
+			"circus": {
+				"atlas": "props_circus",
+				"animName": "door",
+				"frames": 9,
+				"sound": {
+					"open": "sndDoor"
+				}
+			},
+			"crystal": {
+				"atlas": "props_crystal",
+				"animName": "door",
+				"frames": 10,
+				"sound": {
+					"open": "sndDoor"
+				}
+			},
+			"egypt": {
+				"atlas": "props_egypt",
+				"animName": "door",
+				"frames": 9,
+				"sound": {
+					"open": "sndDoor"
+				}
+			},
+			"medieval": {
+				"atlas": "props_medieval",
+				"animName": "door",
+				"frames": 9,
+				"sound": {
+					"open": "sndDoor"
+				}
+			},
+			"polar": {
+				"atlas": "props_polar",
+				"animName": "door",
+				"frames": 9,
+				"sound": {
+					"open": "sndDoor"
+				}
+			},
+			"space": {
+				"atlas": "props_space",
+				"animName": "door",
+				"frames": 9,
+				"sound": {
+					"open": "sndLaser"
+				}
+			},
+			"sports": {
+				"atlas": "props_sports",
+				"animName": "door",
+				"frames": 9,
+				"sound": {
+					"open": "sndDoor"
+				}
+			}
+		},
+		"exits": {
+			"classic": {
+				"atlas": "props_classic",
+				"animName": "exit",
+				"frames": 5,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"cave": {
+				"atlas": "props_cave",
+				"animName": "exit",
+				"frames": 1,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"circus": {
+				"atlas": "props_circus",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"crystal": {
+				"atlas": "props_cave",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"dirt": {
+				"atlas": "props_dirt",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"egypt": {
+				"atlas": "props_egypt",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"fire": {
+				"atlas": "props_fire",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"medieval": {
+				"atlas": "props_medieval",
+				"animName": "exit",
+				"frames": 1,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"pink": {
+				"atlas": "props_pink",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"polar": {
+				"atlas": "props_polar",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"space": {
+				"atlas": "props_space",
+				"animName": "exit",
+				"frames": 8,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			},
+			"sports": {
+				"atlas": "props_sports",
+				"animName": "exit",
+				"frames": 6,
+				"bbox": {
+					"left": -4,
+					"right": 4,
+					"top": -8,
+					"bottom": 0
+				},
+				"sound": {
+					"exit": "sndYippie"
+				}
+			}
+		},
+		"traps": {
+			"water": {
+				"atlas": "props_traps_generic",
+				"animations": {
+					"idle": {
+						"frames": [
+							"water_000.png",
+							"water_001.png",
+							"water_002.png",
+							"water_003.png",
+							"water_004.png",
+							"water_005.png",
+							"water_006.png",
+							"water_007.png",
+							"water_008.png",
+							"water_009.png"
+						]
+					}
+				},
+				"bbox": {
+					"left": 0,
+					"right": 16,
+					"top": 0,
+					"bottom": 16
+				},
+				"anchor": {
+					"x": 0,
+					"y": 0
+				},
+				"instant": true,
+				"death_type": "DEATHTYPE_DROWN"
+			}
+		}
+	}
+}

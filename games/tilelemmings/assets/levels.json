@@ -1,0 +1,58 @@
+{
+	"difficulties": [
+		{
+			"resref": "fun",
+			"name": "Fun",
+			"baseUrl": "assets/levels/fun/",
+			"levels": [
+				{
+					"filename": "level1.json",
+					"name": "Bash that wall down!"
+				},
+				{
+					"filename": "level2.json",
+					"name": "Block and build"
+				},
+				{
+					"filename": "level3.json",
+					"name": "Diggy Diggy Hole"
+				},
+				{
+					"filename": "level4.json",
+					"name": "Shaft mining"
+				},
+				{
+					"filename": "level5.json",
+					"name": "Along the hole"
+				},
+				{
+					"filename": "level6.json",
+					"name": "Last resort"
+				},
+				{
+					"filename": "level7.json",
+					"name": "Something for all"
+				},
+				{
+					"filename": "level8.json",
+					"name": "It gets tricky"
+				}
+			]
+		},
+		{
+			"resref": "tricky",
+			"name": "Tricky",
+			"baseUrl": "assets/levels/tricky/",
+			"levels": [
+				{
+					"filename": "level1.json",
+					"name": "Multitasking"
+				},
+				{
+					"filename": "level2.json",
+					"name": "Intervention"
+				}
+			]
+		}
+	]
+}
