@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":127,
+                 "height":32,
+                 "id":3,
                  "name":"",
                  "properties":
                     {
                      "rate":"90",
-                     "type":"polar",
                      "value":"20"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":32,
-                 "y":16
+                 "width":96,
+                 "x":16,
+                 "y":64
                 }, 
                 {
+                 "gid":139,
                  "height":64,
-                 "id":2,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
-                     "type":"polar"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
                  "width":64,
                  "x":528,
-                 "y":240
+                 "y":304
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,7 +56,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":
     {
@@ -70,19 +71,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetArctic.png",
-         "imageheight":240,
-         "imagewidth":200,
-         "margin":2,
-         "name":"tilesetArctic",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":120,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetArctic.json"
+        }, 
+        {
+         "firstgid":121,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":130,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

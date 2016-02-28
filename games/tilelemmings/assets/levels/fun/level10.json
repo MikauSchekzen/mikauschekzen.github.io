@@ -28,36 +28,37 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":93,
+                 "height":32,
+                 "id":3,
                  "name":"",
                  "properties":
                     {
                      "rate":"80",
-                     "type":"sports",
                      "value":"40"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
+                 "width":96,
                  "x":192,
-                 "y":192
+                 "y":240
                 }, 
                 {
-                 "height":64,
-                 "id":2,
+                 "gid":105,
+                 "height":48,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
-                     "type":"sports"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":672,
-                 "y":256
+                 "width":32,
+                 "x":704,
+                 "y":320
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -66,7 +67,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":
     {
@@ -87,137 +88,19 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetSports.png",
-         "imageheight":160,
-         "imagewidth":160,
-         "margin":2,
-         "name":"sports",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":64,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetSports.json"
         }, 
         {
          "firstgid":65,
-         "image":"..\/..\/gfx\/tilesets\/tilesetLiquids.png",
-         "imageheight":40,
-         "imagewidth":200,
-         "margin":2,
-         "name":"tilesetLiquids",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":20,
-         "tileheight":16,
-         "tileproperties":
-            {
-             "0":
-                {
-                 "tileType":"3"
-                },
-             "10":
-                {
-                 "tileType":"3"
-                }
-            },
-         "tiles":
-            {
-             "0":
-                {
-                 "animation":[
-                        {
-                         "duration":100,
-                         "tileid":0
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":1
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":2
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":3
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":4
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":5
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":6
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":7
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":8
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":9
-                        }]
-                },
-             "10":
-                {
-                 "animation":[
-                        {
-                         "duration":100,
-                         "tileid":10
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":11
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":12
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":13
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":14
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":15
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":16
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":17
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":18
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":19
-                        }]
-                }
-            },
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/generic\/tilesetLiquids.json"
+        }, 
+        {
+         "firstgid":85,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":94,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

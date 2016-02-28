@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":81,
+                 "height":32,
+                 "id":3,
                  "name":"",
                  "properties":
                     {
                      "rate":"100",
-                     "type":"cave",
                      "value":"20"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":48,
-                 "y":96
+                 "width":96,
+                 "x":32,
+                 "y":160
                 }, 
                 {
-                 "height":64,
-                 "id":2,
+                 "gid":90,
+                 "height":48,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
-                     "type":"cave"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
                  "width":64,
                  "x":544,
-                 "y":96
+                 "y":160
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,7 +56,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":
     {
@@ -71,19 +72,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetCave.png",
-         "imageheight":160,
-         "imagewidth":200,
-         "margin":2,
-         "name":"tilesetCave",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":80,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetCave.json"
+        }, 
+        {
+         "firstgid":81,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":90,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

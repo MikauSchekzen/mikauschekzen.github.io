@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":70,
+                 "height":32,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
                      "rate":"80",
-                     "type":"classic",
                      "value":"30"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":880,
-                 "y":288
+                 "width":96,
+                 "x":864,
+                 "y":336
                 }, 
                 {
-                 "height":64,
-                 "id":2,
+                 "gid":82,
+                 "height":112,
+                 "id":5,
                  "name":"",
                  "properties":
                     {
-                     "type":"fire"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":80,
-                 "y":336
+                 "width":96,
+                 "x":64,
+                 "y":400
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,7 +56,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":6,
  "orientation":"orthogonal",
  "properties":
     {
@@ -74,26 +75,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetFire.png",
-         "imageheight":120,
-         "imagewidth":220,
-         "margin":2,
-         "name":"tilesetFire",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":66,
-         "tileheight":16,
-         "tileproperties":
-            {
-             "22":
-                {
-                 "tileType":"2"
-                }
-            },
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetFire.json"
+        }, 
+        {
+         "firstgid":67,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":76,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

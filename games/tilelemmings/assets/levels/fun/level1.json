@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
+                 "gid":54,
                  "height":64,
-                 "id":1,
+                 "id":7,
                  "name":"",
                  "properties":
                     {
                      "rate":"50",
-                     "type":"medieval",
                      "value":"20"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":64,
-                 "y":96
+                 "width":80,
+                 "x":48,
+                 "y":160
                 }, 
                 {
-                 "height":64,
-                 "id":2,
+                 "gid":65,
+                 "height":80,
+                 "id":8,
                  "name":"",
                  "properties":
                     {
-                     "type":"medieval"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
                  "width":64,
                  "x":432,
-                 "y":192
+                 "y":256
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,20 +56,13 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":4,
+ "nextobjectid":16,
  "orientation":"orthogonal",
  "properties":
     {
-     "basher":"20",
+     "basher":"5",
      "bg":"bgDarkSky.png",
      "bgm":"medieval.ogg",
-     "blocker":"0",
-     "builder":"0",
-     "climber":"0",
-     "digger":"0",
-     "exploder":"0",
-     "floater":"0",
-     "miner":"0",
      "need":"10"
     },
  "renderorder":"right-down",
@@ -76,42 +70,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetMedieval.png",
-         "imageheight":120,
-         "imagewidth":160,
-         "margin":2,
-         "name":"tilesetMedieval",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":48,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetMedieval.json"
         }, 
         {
          "firstgid":49,
-         "image":"..\/..\/gfx\/tilesets\/tilesetPlaceables.png",
-         "imageheight":120,
-         "imagewidth":160,
-         "margin":2,
-         "name":"tilesetPlaceables",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":48,
-         "tileheight":16,
-         "tileproperties":
-            {
-             "22":
-                {
-                 "tileType":"3"
-                }
-            },
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":58,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

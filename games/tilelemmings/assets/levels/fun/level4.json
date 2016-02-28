@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":108,
+                 "height":32,
+                 "id":3,
                  "name":"",
                  "properties":
                     {
-                     "type":"space"
-                    },
-                 "rotation":0,
-                 "type":"exit",
-                 "visible":true,
-                 "width":64,
-                 "x":544,
-                 "y":320
-                }, 
-                {
-                 "height":64,
-                 "id":2,
-                 "name":"",
-                 "properties":
-                    {
-                     "rate":"90",
-                     "type":"space",
+                     "rate":"120",
                      "value":"20"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
+                 "visible":true,
+                 "width":96,
+                 "x":48,
+                 "y":112
+                }, 
+                {
+                 "gid":120,
+                 "height":64,
+                 "id":4,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":64,
-                 "x":64,
-                 "y":48
+                 "x":544,
+                 "y":384
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,7 +56,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":
     {
@@ -69,38 +70,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetFactory.png",
-         "imageheight":200,
-         "imagewidth":200,
-         "margin":2,
-         "name":"tilesetFactory",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":100,
-         "tileheight":16,
-         "tileproperties":
-            {
-             "52":
-                {
-                 "tileType":"2"
-                },
-             "53":
-                {
-                 "tileType":"2"
-                },
-             "62":
-                {
-                 "tileType":"2"
-                },
-             "63":
-                {
-                 "tileType":"2"
-                }
-            },
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetFactory.json"
+        }, 
+        {
+         "firstgid":101,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":110,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

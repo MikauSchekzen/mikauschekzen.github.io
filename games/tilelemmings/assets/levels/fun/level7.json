@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":323,
+                 "height":32,
+                 "id":3,
                  "name":"",
                  "properties":
                     {
                      "rate":"50",
-                     "type":"classic",
                      "value":"40"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":64,
-                 "y":224
+                 "width":96,
+                 "x":48,
+                 "y":256
                 }, 
                 {
-                 "height":64,
-                 "id":2,
+                 "gid":332,
+                 "height":48,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
-                     "type":"classic"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":864,
-                 "y":288
+                 "width":80,
+                 "x":832,
+                 "y":352
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,7 +56,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":
     {
@@ -76,19 +77,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetPillar.png",
-         "imageheight":320,
-         "imagewidth":400,
-         "margin":2,
-         "name":"tilesetPillar",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":320,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetPillar.json"
+        }, 
+        {
+         "firstgid":321,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":330,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

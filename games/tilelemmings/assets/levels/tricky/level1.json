@@ -17,54 +17,55 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":195,
+                 "height":32,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
                      "rate":"90",
-                     "type":"classic",
                      "value":"20"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
+                 "width":96,
                  "x":64,
-                 "y":128
+                 "y":176
                 }, 
                 {
-                 "height":64,
-                 "id":2,
-                 "name":"",
-                 "properties":
-                    {
-                     "type":"pink"
-                    },
-                 "rotation":0,
-                 "type":"exit",
-                 "visible":true,
-                 "width":64,
-                 "x":256,
-                 "y":224
-                }, 
-                {
-                 "height":64,
-                 "id":3,
+                 "gid":195,
+                 "height":32,
+                 "id":5,
                  "name":"",
                  "properties":
                     {
                      "delay":"45",
                      "rate":"90",
-                     "type":"classic",
                      "value":"20"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
-                 "x":544,
-                 "y":80
+                 "width":96,
+                 "x":512,
+                 "y":128
+                }, 
+                {
+                 "gid":210,
+                 "height":48,
+                 "id":6,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80,
+                 "x":248,
+                 "y":288
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -73,7 +74,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":4,
+ "nextobjectid":7,
  "orientation":"orthogonal",
  "properties":
     {
@@ -89,19 +90,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetPink.png",
-         "imageheight":320,
-         "imagewidth":240,
-         "margin":2,
-         "name":"tilesetPink",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":192,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetPink.json"
+        }, 
+        {
+         "firstgid":193,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":202,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
-                 "height":64,
-                 "id":1,
+                 "gid":105,
+                 "height":32,
+                 "id":3,
                  "name":"",
                  "properties":
                     {
                      "rate":"90",
-                     "type":"egypt",
                      "value":"5"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
+                 "width":96,
                  "x":80,
-                 "y":112
+                 "y":160
                 }, 
                 {
+                 "gid":115,
                  "height":64,
-                 "id":2,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
-                     "type":"egypt"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
                  "width":64,
                  "x":496,
-                 "y":160
+                 "y":224
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,7 +56,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":
     {
@@ -70,19 +71,15 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetPyramid.png",
-         "imageheight":200,
-         "imagewidth":200,
-         "margin":2,
-         "name":"tilesetPyramid",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":100,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetPyramid.json"
+        }, 
+        {
+         "firstgid":101,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":110,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,

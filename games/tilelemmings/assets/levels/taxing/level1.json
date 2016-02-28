@@ -17,36 +17,37 @@
          "name":"objects",
          "objects":[
                 {
+                 "gid":170,
                  "height":64,
-                 "id":1,
+                 "id":3,
                  "name":"",
                  "properties":
                     {
                      "rate":"180",
-                     "type":"medieval",
                      "value":"20"
                     },
                  "rotation":0,
-                 "type":"door",
+                 "type":"",
                  "visible":true,
-                 "width":64,
+                 "width":80,
                  "x":272,
-                 "y":16
+                 "y":80
                 }, 
                 {
-                 "height":64,
-                 "id":2,
+                 "gid":181,
+                 "height":80,
+                 "id":4,
                  "name":"",
                  "properties":
                     {
-                     "type":"medieval"
+
                     },
                  "rotation":0,
-                 "type":"exit",
+                 "type":"",
                  "visible":true,
                  "width":64,
                  "x":96,
-                 "y":320
+                 "y":384
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -55,7 +56,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":3,
+ "nextobjectid":5,
  "orientation":"orthogonal",
  "properties":
     {
@@ -73,228 +74,23 @@
  "tilesets":[
         {
          "firstgid":1,
-         "image":"..\/..\/gfx\/tilesets\/tilesetMedieval.png",
-         "imageheight":120,
-         "imagewidth":160,
-         "margin":2,
-         "name":"tilesetMedieval",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":48,
-         "tileheight":16,
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/tilesetMedieval.json"
         }, 
         {
          "firstgid":49,
-         "image":"..\/..\/gfx\/tilesets\/tilesetMiscTiles2.png",
-         "imageheight":160,
-         "imagewidth":240,
-         "margin":2,
-         "name":"tilesetMiscTiles2",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":96,
-         "tileheight":16,
-         "tileproperties":
-            {
-             "0":
-                {
-                 "tileType":"2"
-                },
-             "1":
-                {
-                 "tileType":"2"
-                },
-             "12":
-                {
-                 "tileType":"2"
-                },
-             "13":
-                {
-                 "tileType":"2"
-                },
-             "14":
-                {
-                 "tileType":"2"
-                },
-             "15":
-                {
-                 "tileType":"2"
-                },
-             "16":
-                {
-                 "tileType":"2"
-                },
-             "2":
-                {
-                 "tileType":"2"
-                },
-             "24":
-                {
-                 "tileType":"2"
-                },
-             "25":
-                {
-                 "tileType":"2"
-                },
-             "26":
-                {
-                 "tileType":"2"
-                },
-             "27":
-                {
-                 "tileType":"2"
-                },
-             "28":
-                {
-                 "tileType":"2"
-                },
-             "3":
-                {
-                 "tileType":"2"
-                },
-             "36":
-                {
-                 "tileType":"2"
-                },
-             "4":
-                {
-                 "tileType":"2"
-                },
-             "48":
-                {
-                 "tileType":"3"
-                },
-             "49":
-                {
-                 "tileType":"3"
-                }
-            },
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/generic\/tilesetMiscTiles2.json"
         }, 
         {
          "firstgid":145,
-         "image":"..\/..\/gfx\/tilesets\/tilesetLiquids.png",
-         "imageheight":40,
-         "imagewidth":200,
-         "margin":2,
-         "name":"tilesetLiquids",
-         "properties":
-            {
-
-            },
-         "spacing":4,
-         "tilecount":20,
-         "tileheight":16,
-         "tileproperties":
-            {
-             "0":
-                {
-                 "tileType":"3"
-                },
-             "10":
-                {
-                 "tileType":"3"
-                }
-            },
-         "tiles":
-            {
-             "0":
-                {
-                 "animation":[
-                        {
-                         "duration":100,
-                         "tileid":0
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":1
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":2
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":3
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":4
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":5
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":6
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":7
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":8
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":9
-                        }]
-                },
-             "10":
-                {
-                 "animation":[
-                        {
-                         "duration":100,
-                         "tileid":10
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":11
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":12
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":13
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":14
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":15
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":16
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":17
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":18
-                        }, 
-                        {
-                         "duration":100,
-                         "tileid":19
-                        }]
-                }
-            },
-         "tilewidth":16
+         "source":"..\/..\/tilesets\/generic\/tilesetLiquids.json"
+        }, 
+        {
+         "firstgid":165,
+         "source":"..\/..\/tilesets\/generic\/tilesetDoors.json"
+        }, 
+        {
+         "firstgid":174,
+         "source":"..\/..\/tilesets\/generic\/tilesetExits.json"
         }],
  "tilewidth":16,
  "version":1,
